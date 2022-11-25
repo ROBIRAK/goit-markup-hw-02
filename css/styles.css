@@ -11,10 +11,10 @@ body {
     font-weight: 400;
 }
 
-body a:hover,
+/* body a:hover,
 body a:focus {
     color: var(--accent-color);
-}
+} */
 
 body button:hover,
 body button:focus {
@@ -88,6 +88,13 @@ body button:focus {
     font-size: 14px;
     line-height: 1, 14;
     letter-spacing: 0.02em;
+}
+
+.mail:hover,
+.phone:hover,
+.mail:focus,
+.phone:focus {
+    color: #2196F3;
 }
 
 /* Герой */
@@ -190,6 +197,13 @@ ul {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
+}
+
+.mobile:hover,
+.message:hover,
+.mobile:focus,
+.message:focus {
+    color: #2196F3;
 }
 
 a {
