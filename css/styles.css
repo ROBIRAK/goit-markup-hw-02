@@ -1,16 +1,8 @@
-:root {
-    --header-color: #ffffff;
-    --primary-text-color: #212121;
-    --second-text-color: #757575;
-    --accent-color: #2196f3;
-    --third-color: #000000;
-    --button-color: #f5f4fa;
-    }
 
 /* Шрифти, контейнер */
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 14;
+    font-size: 14px;
     background: #FFFFFF;
     margin: auto;
     padding-left: 16px;
@@ -26,13 +18,11 @@ body a:focus {
 
 body button:hover,
 body button:focus {
-    background-color: #000000;
+    background-color: #188ce8;
     color: var(--accent-color);
     cursor: pointer;
 }
-.btn:hover {
-    background-color: #2196F3;
-}
+
 .navigation-link:hover,
 .navigation-link:focus {
     color: var(--accent-color);
@@ -53,7 +43,7 @@ body button:focus {
 /* Чорні букви логотипу */
 .logo-part {
     font-family: 'Raleway';
-    color: black;
+    color: #212121;
     font-weight: 700;
     font-size: 26px;
     line-height: 1, 19;
@@ -71,7 +61,7 @@ body button:focus {
 
 /* Силки меню */
 .navigation-link {
-    color: black;
+    color: #212121;
 }
 
 /* Контакти */
@@ -83,7 +73,7 @@ body button:focus {
 .mail {
     width: 135px;
     height: 16px;
-    color: #2196F3;
+    color: #757575;
     font-size: 14px;
     line-height: 1, 14;
     letter-spacing: 0.02em;
@@ -222,15 +212,19 @@ h2 {
     list-style: none;
 }
 
-.button-list {
-    color: #F5F4FA;
+.portfoio-button {
+    color: #212121;
+    background-color: #F5F4FA;
+    width: 112px;
+    height: 38px;
+    border: 0;
+    margin-top: 8px;
 }
 
-body .button-list:hover,
-body .button-list:focus {
-    color: var(--accent-color);
-    cursor: pointer;
-    color: #2196F3;
+.portfoio-button:hover,
+.portfoio-button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
 
 .work-title {
